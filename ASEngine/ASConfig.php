@@ -6,12 +6,12 @@ date_default_timezone_set('UTC');
 //WEBSITE
 
 define('WEBSITE_NAME', 'valuebets');
-define('WEBSITE_DOMAIN', 'http://localhost/2018/September/valuebets/');
+define('WEBSITE_DOMAIN', 'http://localhost/2018/October/valuebets/');
 
 // It can be the same as domain (if script is placed on website's root folder)
 // or it can contain path that include subfolders, if script is located in
 //some subfolder and not in root folder.
-define('SCRIPT_URL', 'http://localhost/2018/September/valuebets/');
+define('SCRIPT_URL', 'http://localhost/2018/October/valuebets/');
 
 //DATABASE CONFIGURATION
 define('DB_HOST', 'localhost');
