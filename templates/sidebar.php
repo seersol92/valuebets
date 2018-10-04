@@ -40,7 +40,7 @@
             <i class="nav-icon icon-layers"></i> Dashboard</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="typography.html">
+            <a class="nav-link" href="betsfeeds.php">
             <i class="nav-icon icon-note"></i> Bets Feed</a>
          </li>
          <li class="nav-item">
