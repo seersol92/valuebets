@@ -30,13 +30,8 @@ $valid = app('validator')->prKeyValid($_GET['k']);
     <body>
         <div class="container">
             
-            <div class="col-md-8 col-lg-6 col-xl-5 mx-auto" style="margin-top: 8%; margin-bottom: 10%;">
-
-                <h3 class="text-center">
-                    <?= WEBSITE_NAME ?>
-                </h3>
-
-                <div class="card mt-5">
+            <div class="col-md-8 col-lg-6 col-xl-5 mx-auto" style="margin-top: 10%; margin-bottom: 10%;">				<img src="assets/img/logo-valuebets.svg" style="				width: 60%;				margin-left: auto;				margin-right: auto;				display: block;				padding: 50px;				">
+                <div class="card" >
                     <div class="card-body pt-4">
 
                         <div class="px-4 pb-3">
@@ -57,7 +52,7 @@ $valid = app('validator')->prKeyValid($_GET['k']);
 
                                         <button id="btn-reset-pass"
                                                 type="submit"
-                                                class="btn btn-success mt-4 btn-block btn-lg"
+                                                class="btn btn-primary mt-4 btn-block btn-lg"
                                                 data-loading-text="<?= trans('resetting') ?>">
                                             <?= trans('reset_password') ?>
                                         </button>

@@ -34,7 +34,14 @@ app('register')->botProtection();
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8">
-          <div class="card-group">
+		<img src="assets/img/logo-valuebets.svg" style="
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			padding: 50px;
+		">          
+		<div class="card-group">
             <div class="card p-4">
               <div class="card-body" id="login">
                 <h1>Login</h1>

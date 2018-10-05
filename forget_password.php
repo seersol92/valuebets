@@ -20,7 +20,7 @@ app('register')->botProtection();
     <meta name="description" content="Valuebets">
     <meta name="author" content="">
     <meta name="keyword" content="ValueBets">
-    <title>Register | <?= WEBSITE_NAME ?></title>
+    <title>Recover Password | <?= WEBSITE_NAME ?></title>
     <!-- Icons-->
     <link href="assets/vendors/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
     <link href="assets/vendors/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
@@ -35,6 +35,13 @@ app('register')->botProtection();
       <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
+			<img src="assets/img/logo-valuebets.svg" style="
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			padding: 50px;
+			">
                 <div class="card mx-4">
                     <div class="card-body p-3" id="forgot">
                         <h3 class="mb-4 mt-4">Recover Password </h3>
@@ -52,20 +59,25 @@ app('register')->botProtection();
                         </div>
                         <button id="btn-forgot-password"
                                 type="submit"
-                                class="btn btn-success mt-4  btn-block btn-lg"
+                                class="btn btn-primary mt-4  btn-block btn-lg"
                                 data-loading-text="<?= trans('resetting') ?>">
                                 Recover Password
                         </button> 
 
                         </form>
                     </div>
-                <div class="card-footer">
-                <div class="col-12">
-                <div class="text-center text-muted mt-3 sign-in-controls">
-                    <a href="login.php" class="form-change"><?= trans('login') ?></a>
-                </div>
-                </div>
-            </div>
+               <div class="card-footer p-4">
+				  <div class="row">
+					<div class="col-12">
+									  </div>
+				  </div>
+				  <div class="col-12">
+				  <div class="text-center text-muted mt-3 sign-in-controls">
+					Already have an account?                
+					<a href="login.php" class="form-change">Login</a>
+				</div>
+				  </div>
+				</div>
                 </div>
             </div>
         </div>

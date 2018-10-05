@@ -35,6 +35,13 @@ app('register')->botProtection();
       <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-6">
+				<img src="assets/img/logo-valuebets.svg" style="
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				padding: 50px;
+				">
               <div class="card mx-4">
                 <div class="card-body p-4" id="create">
                   <h1>Register</h1>
@@ -94,7 +101,7 @@ app('register')->botProtection();
 
                   <button id="btn-register"
                           type="submit"
-                          class="btn btn-success  btn-block btn-lg"
+                          class="btn btn-primary  btn-block btn-lg"
                           data-loading-text="<?= trans('creating_account') ?>">
                           Create Account
                   </button>            
