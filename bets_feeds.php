@@ -81,6 +81,87 @@
                         <tbody>
                         <tr>
                             <td>
+                                <i class="fa fa-life-ring"></i>
+                                Paysandu Vs Goias EC
+                                <p>
+                                    <small class="text-muted">in 2 hours - ordinary Time</small>
+                                </p>
+                            </td>
+                            <td>BetSafe</td>
+                            <td>15</td>
+                            <td>12,4%</td>
+                            <td>
+                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
+                                <span class="badge badge-danger">Remove</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa fa-life-ring"></i>
+                                Paysandu Vs Goias EC
+                                <p>
+                                    <small class="text-muted">in 2 hours - ordinary Time</small>
+                                </p>
+                            </td>
+                            <td>BetSafe</td>
+                            <td>15</td>
+                            <td>12,4%</td>
+                            <td>
+                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
+                                <span class="badge badge-danger">Remove</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa fa-life-ring"></i>
+                                Paysandu Vs Goias EC
+                                <p>
+                                    <small class="text-muted">in 2 hours - ordinary Time</small>
+                                </p>
+                            </td>
+                            <td>BetSafe</td>
+                            <td>15</td>
+                            <td>12,4%</td>
+                            <td>
+                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
+                                <span class="badge badge-danger">Remove</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa fa-life-ring"></i>
+                                Paysandu Vs Goias EC
+                                <p>
+                                    <small class="text-muted">in 2 hours - ordinary Time</small>
+                                </p>
+                            </td>
+                            <td>BetSafe</td>
+                            <td>15</td>
+                            <td>12,4%</td>
+                            <td>
+                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
+                                <span class="badge badge-danger">Remove</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa fa-life-ring"></i>
+                                Paysandu Vs Goias EC
+                                <p>
+                                    <small class="text-muted">in 2 hours - ordinary Time</small>
+                                </p>
+                            </td>
+                            <td>BetSafe</td>
+                            <td>15</td>
+                            <td>12,4%</td>
+                            <td>
+                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
+                                <span class="badge badge-danger">Remove</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa fa-life-ring"></i>
                                 Paysandu Vs Goias EC
                                 <p>
                                     <small class="text-muted">in 2 hours - ordinary Time</small>
@@ -125,5 +206,8 @@
   </div>
 </main>
 <?php include 'templates/footer.php'; ?>
+<script src="assets/js/Chart.min.js"></script>
+<script src="assets/vendors/@coreui/coreui-plugin-chartjs-custom-tooltips/js/custom-tooltips.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -36,15 +36,15 @@
          </li>
          <li class="nav-title">MENU</li>
          <li class="nav-item">
-            <a class="nav-link" href="colors.html">
+            <a class="nav-link" href="./">
             <i class="nav-icon icon-layers"></i> Dashboard</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="betsfeeds.php">
+            <a class="nav-link" href="bets_feeds.php">
             <i class="nav-icon icon-note"></i> Bets Feed</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="typography.html">
+            <a class="nav-link" href="my_bets.php">
             <i class="nav-icon icon-list"></i> My Bets</a>
          </li>
         <!-- <li class="nav-title">Components</li>

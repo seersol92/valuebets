@@ -3,16 +3,13 @@
   <!-- Breadcrumb-->
   <ol class="breadcrumb">
     <li class="breadcrumb-item">Home</li>
-    <li class="breadcrumb-item">
-      <a href="#">Admin</a>
-    </li>
     <li class="breadcrumb-item active">Dashboard</li>
     <!-- Breadcrumb Menu-->
   </ol>
   <div class="container-fluid">
     <div class="animated fadeIn"> 
 
-        <div class="row">
+      <div class="row">
           <div class="col-sm-6 col-lg-3">
             <div class="card text-white bg-primary">
               <div class="card-body pb-0">
@@ -34,7 +31,7 @@
               </div>
             </div>
           </div>
-        <!-- /.col-->
+          <!-- /.col-->
           <div class="col-sm-6 col-lg-3">
             <div class="card text-white bg-info">
               <div class="card-body pb-0">
@@ -49,7 +46,7 @@
               </div>
             </div>
           </div>
-        <!-- /.col-->
+          <!-- /.col-->
           <div class="col-sm-6 col-lg-3">
             <div class="card text-white bg-warning">
               <div class="card-body pb-0">
@@ -71,7 +68,7 @@
               </div>
             </div>
           </div>
-        <!-- /.col-->
+          <!-- /.col-->
           <div class="col-sm-6 col-lg-3">
             <div class="card text-white bg-danger">
               <div class="card-body pb-0">
@@ -93,342 +90,213 @@
               </div>
             </div>
           </div>
-        <!-- /.col-->
+          <!-- /.col-->
+          <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-5">
+                      <h4 class="card-title mb-0">Profile</h4>
+                      <div class="small text-muted">Graph</div>
+                    </div>
+                    <!-- /.col-->
+                    <div class="col-sm-7 d-none d-md-block">
+                      <button class="btn btn-primary float-right" type="button">
+                        <i class="icon-cloud-download"></i>
+                      </button>
+                      <div class="btn-group btn-group-toggle float-right mr-3" data-toggle="buttons">
+                        <label class="btn btn-outline-secondary">
+                          <input id="option1" type="radio" name="options" autocomplete="off" /> Day
+                        </label>
+                        <label class="btn btn-outline-secondary active">
+                          <input id="option2" type="radio" name="options" autocomplete="off" checked="" /> Month
+                        </label>
+                        <label class="btn btn-outline-secondary">
+                          <input id="option3" type="radio" name="options" autocomplete="off" /> Year
+                        </label>
+                      </div>
+                    </div>
+                    <!-- /.col-->
+                  </div>
+                  <!-- /.row-->
+                  <div class="chart-wrapper" style="height:300px;margin-top:40px;">
+                    <canvas class="chart" id="main-chart" height="300"></canvas>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="row text-center">
+                    <div class="col-sm-12 col-md mb-sm-2 mb-0">
+                      <strong>Profits</strong>
+                      <div class="progress progress-xs mt-2">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
       </div>
 
-        <div class="row">
-    <div class="col-lg-6">
-      <div class="card">
-        <div class="card-header">
-          <i class="fa fa-align-justify"></i> Simple Table</div>
-        <div class="card-body">
-          <table class="table table-responsive-sm">
-            <thead>
-              <tr>
-                <th>Username</th>
-                <th>Date registered</th>
-                <th>Role</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Samppa Nori</td>
-                <td>2012/01/01</td>
-                <td>Member</td>
-                <td>
-                  <span class="badge badge-success">Active</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Estavan Lykos</td>
-                <td>2012/02/01</td>
-                <td>Staff</td>
-                <td>
-                  <span class="badge badge-danger">Banned</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Chetan Mohamed</td>
-                <td>2012/02/01</td>
-                <td>Admin</td>
-                <td>
-                  <span class="badge badge-secondary">Inactive</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Derick Maximinus</td>
-                <td>2012/03/01</td>
-                <td>Member</td>
-                <td>
-                  <span class="badge badge-warning">Pending</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Friderik Dávid</td>
-                <td>2012/01/21</td>
-                <td>Staff</td>
-                <td>
-                  <span class="badge badge-success">Active</span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <ul class="pagination">
-            <li class="page-item">
-              <a class="page-link" href="#">Prev</a>
-            </li>
-            <li class="page-item active">
-              <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">2</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">3</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">4</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
-          </ul>
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <i class="fa fa-align-justify"></i>
+                <strong> Recent Summary</strong>
+              </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                  <table class="table table-responsive-sm recent-summary">
+                    <thead>
+                      <tr>
+                          <th>#</th>
+                          <th>At Risk (EUR)</th>
+                          <th>Payout (EUR)</th>
+                          <th>Profit (EUR)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                            Today
+                              <p><small class="text-muted">OCT 03, 2018</small></p>
+                          </td>
+                          <td>1234</td>
+                          <td>1234</td>
+                          <td>-124</td>
+                      </tr>
+                      <tr>
+                        <td>
+                            Today
+                              <p><small class="text-muted">OCT 03, 2018</small></p>
+                          </td>
+                          <td>1234</td>
+                          <td>1234</td>
+                          <td>-124</td>
+                      </tr>
+                      <tr>
+                        <td>
+                            Today
+                              <p><small class="text-muted">OCT 03, 2018</small></p>
+                          </td>
+                          <td>1234</td>
+                          <td>1234</td>
+                          <td>-124</td>
+                      </tr>
+                      <tr>
+                        <td>
+                            Today
+                              <p><small class="text-muted">OCT 03, 2018</small></p>
+                          </td>
+                          <td>1234</td>
+                          <td>1234</td>
+                          <td>-124</td>
+                      </tr>
+                      <tr>
+                        <td>
+                            Today
+                              <p><small class="text-muted">OCT 03, 2018</small></p>
+                          </td>
+                          <td>1234</td>
+                          <td>1234</td>
+                          <td>-124</td>
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                <table class="table table-responsive-sm recent-summary">
+                    <thead>
+                      <tr>
+                          <th>
+                            <i class="fa fa-user-o"></i>
+                          </th>
+                          <th>Bookmaker</th>
+                          <th>Total Bets</th>
+                          <th>ROI</th>
+                          <th>Profit</th>
+                          <th>
+                            <a>
+                              <i class="fa fa-plus-square-o" style="font-size: 21px;cursor: pointer;"></i>
+                            </a>
+                          </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                          <td>
+                            <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                          </td>
+                          <td>BetSafe</td>
+                          <td>15</td>
+                          <td>14%</td>
+                          <td>
+                            125,25
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                          </td>
+                          <td>BetSafe</td>
+                          <td>15</td>
+                          <td>14%</td>
+                          <td>
+                            125,25
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                          </td>
+                          <td>BetSafe</td>
+                          <td>15</td>
+                          <td>14%</td>
+                          <td>
+                            125,25
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                          </td>
+                          <td>BetSafe</td>
+                          <td>15</td>
+                          <td>14%</td>
+                          <td>
+                            125,25
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                          </td>
+                          <td>BetSafe</td>
+                          <td>15</td>
+                          <td>14%</td>
+                          <td>
+                            125,25
+                          </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- /.col-->
-    <div class="col-lg-6">
-      <div class="card">
-        <div class="card-header">
-          <i class="fa fa-align-justify"></i> Striped Table</div>
-        <div class="card-body">
-          <table class="table table-responsive-sm table-striped">
-            <thead>
-              <tr>
-                <th>Username</th>
-                <th>Date registered</th>
-                <th>Role</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Yiorgos Avraamu</td>
-                <td>2012/01/01</td>
-                <td>Member</td>
-                <td>
-                  <span class="badge badge-success">Active</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Avram Tarasios</td>
-                <td>2012/02/01</td>
-                <td>Staff</td>
-                <td>
-                  <span class="badge badge-danger">Banned</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Quintin Ed</td>
-                <td>2012/02/01</td>
-                <td>Admin</td>
-                <td>
-                  <span class="badge badge-secondary">Inactive</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Enéas Kwadwo</td>
-                <td>2012/03/01</td>
-                <td>Member</td>
-                <td>
-                  <span class="badge badge-warning">Pending</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Agapetus Tadeáš</td>
-                <td>2012/01/21</td>
-                <td>Staff</td>
-                <td>
-                  <span class="badge badge-success">Active</span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <ul class="pagination">
-            <li class="page-item">
-              <a class="page-link" href="#">Prev</a>
-            </li>
-            <li class="page-item active">
-              <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">2</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">3</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">4</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- /.col-->
-  </div>
-  <!-- /.row-->
-  <div class="row">
-    <div class="col-lg-6">
-      <div class="card">
-        <div class="card-header">
-          <i class="fa fa-align-justify"></i> Condensed Table</div>
-        <div class="card-body">
-          <table class="table table-responsive-sm table-sm">
-            <thead>
-              <tr>
-                <th>Username</th>
-                <th>Date registered</th>
-                <th>Role</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Carwyn Fachtna</td>
-                <td>2012/01/01</td>
-                <td>Member</td>
-                <td>
-                  <span class="badge badge-success">Active</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Nehemiah Tatius</td>
-                <td>2012/02/01</td>
-                <td>Staff</td>
-                <td>
-                  <span class="badge badge-danger">Banned</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Ebbe Gemariah</td>
-                <td>2012/02/01</td>
-                <td>Admin</td>
-                <td>
-                  <span class="badge badge-secondary">Inactive</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Eustorgios Amulius</td>
-                <td>2012/03/01</td>
-                <td>Member</td>
-                <td>
-                  <span class="badge badge-warning">Pending</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Leopold Gáspár</td>
-                <td>2012/01/21</td>
-                <td>Staff</td>
-                <td>
-                  <span class="badge badge-success">Active</span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <ul class="pagination">
-            <li class="page-item">
-              <a class="page-link" href="#">Prev</a>
-            </li>
-            <li class="page-item active">
-              <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">2</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">3</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">4</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- /.col-->
-    <div class="col-lg-6">
-      <div class="card">
-        <div class="card-header">
-          <i class="fa fa-align-justify"></i> Bordered Table</div>
-        <div class="card-body">
-          <table class="table table-responsive-sm table-bordered">
-            <thead>
-              <tr>
-                <th>Username</th>
-                <th>Date registered</th>
-                <th>Role</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Pompeius René</td>
-                <td>2012/01/01</td>
-                <td>Member</td>
-                <td>
-                  <span class="badge badge-success">Active</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Paĉjo Jadon</td>
-                <td>2012/02/01</td>
-                <td>Staff</td>
-                <td>
-                  <span class="badge badge-danger">Banned</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Micheal Mercurius</td>
-                <td>2012/02/01</td>
-                <td>Admin</td>
-                <td>
-                  <span class="badge badge-secondary">Inactive</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Ganesha Dubhghall</td>
-                <td>2012/03/01</td>
-                <td>Member</td>
-                <td>
-                  <span class="badge badge-warning">Pending</span>
-                </td>
-              </tr>
-              <tr>
-                <td>Hiroto Šimun</td>
-                <td>2012/01/21</td>
-                <td>Staff</td>
-                <td>
-                  <span class="badge badge-success">Active</span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <ul class="pagination">
-            <li class="page-item">
-              <a class="page-link" href="#">Prev</a>
-            </li>
-            <li class="page-item active">
-              <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">2</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">3</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">4</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- /.col-->
-  </div>
-  <!-- /.row-->
+      <!-- /.row-->
+
     </div>
   </div>
 </main>
+
 <?php include 'templates/footer.php'; ?>
+<script src="assets/js/Chart.min.js"></script>
+<script src="assets/vendors/@coreui/coreui-plugin-chartjs-custom-tooltips/js/custom-tooltips.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -25,6 +25,7 @@ $currentUser = app('current_user');
     <link href="assets/vendors/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <!-- Main styles for this application-->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
     <link href="assets/vendors/pace-progress/css/pace.min.css" rel="stylesheet">
   </head>
   <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
