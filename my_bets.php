@@ -3,7 +3,7 @@
   <!-- Breadcrumb-->
   <ol class="breadcrumb">
     <li class="breadcrumb-item">Home</li>
-    <li class="breadcrumb-item active">Bets Feeds</li>
+    <li class="breadcrumb-item active">My Bets</li>
     <!-- Breadcrumb Menu-->
   </ol>
   <div class="container-fluid">
@@ -66,15 +66,15 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header">
-                    <i class="fa fa-align-justify"></i> Bets Feeds</div>
+                    <i class="fa fa-align-justify"></i> Settled Bets</div>
                     <div class="card-body">
-                    <table class="table table-responsive-sm table-striped">
+                    <table class="table table-responsive-sm table-striped my-bet">
                         <thead>
                         <tr>
                             <th>Event</th>
                             <th>Bookmaker</th>
-                            <th>Stake</th>
-                            <th>Edge</th>
+                            <th>Selection</th>
+                            <th>Return</th>
                             <th>Pick</th>
                         </tr>
                         </thead>
@@ -83,98 +83,163 @@
                             <td>
                                 <i class="fa fa-life-ring"></i>
                                 Paysandu Vs Goias EC
-                                <p>
-                                    <small class="text-muted">in 2 hours - ordinary Time</small>
-                                </p>
                             </td>
-                            <td>BetSafe</td>
-                            <td>15</td>
-                            <td>12,4%</td>
                             <td>
-                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
-                                <span class="badge badge-danger">Remove</span>
+                                <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                                &nbsp;&nbsp;
+                                BetSafe
+                            </td>
+                            <td>Draw no bet (Paysandu) @ 1.8</td>
+                            <td>12%</td>
+                            <td>
+                                <span class="badge badge-danger">Lost</span>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <i class="fa fa-life-ring"></i>
                                 Paysandu Vs Goias EC
-                                <p>
-                                    <small class="text-muted">in 2 hours - ordinary Time</small>
-                                </p>
                             </td>
-                            <td>BetSafe</td>
-                            <td>15</td>
-                            <td>12,4%</td>
                             <td>
-                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
-                                <span class="badge badge-danger">Remove</span>
+                                <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                                &nbsp;&nbsp;
+                                BetSafe
+                            </td>
+                            <td>Draw no bet (Paysandu) @ 1.8</td>
+                            <td>12%</td>
+                            <td>
+                                <span class="badge badge-success">
+                                   <strong>Win</strong>
+                                </span>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <i class="fa fa-life-ring"></i>
                                 Paysandu Vs Goias EC
-                                <p>
-                                    <small class="text-muted">in 2 hours - ordinary Time</small>
-                                </p>
                             </td>
-                            <td>BetSafe</td>
-                            <td>15</td>
-                            <td>12,4%</td>
                             <td>
-                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
-                                <span class="badge badge-danger">Remove</span>
+                                <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                                &nbsp;&nbsp;
+                                BetSafe
+                            </td>
+                            <td>Draw no bet (Paysandu) @ 1.8</td>
+                            <td>12%</td>
+                            <td>
+                                <span class="badge badge-danger">Lost</span>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <i class="fa fa-life-ring"></i>
                                 Paysandu Vs Goias EC
-                                <p>
-                                    <small class="text-muted">in 2 hours - ordinary Time</small>
-                                </p>
                             </td>
-                            <td>BetSafe</td>
-                            <td>15</td>
-                            <td>12,4%</td>
                             <td>
-                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
-                                <span class="badge badge-danger">Remove</span>
+                                <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                                &nbsp;&nbsp;
+                                BetSafe
+                            </td>
+                            <td>Draw no bet (Paysandu) @ 1.8</td>
+                            <td>12%</td>
+                            <td>
+                                <span class="badge badge-danger">Lost</span>
                             </td>
                         </tr>
-                        <tr>
-                            <td>
-                                <i class="fa fa-life-ring"></i>
-                                Paysandu Vs Goias EC
-                                <p>
-                                    <small class="text-muted">in 2 hours - ordinary Time</small>
-                                </p>
-                            </td>
-                            <td>BetSafe</td>
-                            <td>15</td>
-                            <td>12,4%</td>
-                            <td>
-                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
-                                <span class="badge badge-danger">Remove</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <i class="fa fa-life-ring"></i>
-                                Paysandu Vs Goias EC
-                                <p>
-                                    <small class="text-muted">in 2 hours - ordinary Time</small>
-                                </p>
-                            </td>
-                            <td>BetSafe</td>
-                            <td>15</td>
-                            <td>12,4%</td>
-                            <td>
-                                Draw not bet (Paysandu) @ 1.8 &nbsp;&nbsp;
-                                <span class="badge badge-danger">Remove</span>
-                            </td>
-                        </tr>
+
+                        </tbody>
+                    </table>
+                    <ul class="pagination">
+                        <li class="page-item">
+                        <a class="page-link" href="#">Prev</a>
+                        </li>
+                        <li class="page-item active">
+                        <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+             <!-- /.col-->
+             <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                    <i class="fa fa-align-justify"></i> Open Bets</div>
+                    <div class="card-body">
+                    <table class="table table-responsive-sm table-striped my-bet">
+                        <thead>
+                            <tr>
+                                <th>Event</th>
+                                <th>Bookmaker</th>
+                                <th>Stake</th>
+                                <th>Odds</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <i class="fa fa-life-ring"></i>
+                                    Paysandu Vs Goias EC
+                                </td>
+                                <td>
+                                    <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                                    &nbsp;&nbsp;
+                                    BetSafe
+                                </td>
+                                <td>15</td>
+                                <td>1.8</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="fa fa-life-ring"></i>
+                                    Paysandu Vs Goias EC
+                                </td>
+                                <td>
+                                    <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                                    &nbsp;&nbsp;
+                                    BetSafe
+                                </td>
+                                <td>15</td>
+                                <td>1.8</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="fa fa-life-ring"></i>
+                                    Paysandu Vs Goias EC
+                                </td>
+                                <td>
+                                    <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                                    &nbsp;&nbsp;
+                                    BetSafe
+                                </td>
+                                <td>15</td>
+                                <td>1.8</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="fa fa-life-ring"></i>
+                                    Paysandu Vs Goias EC
+                                </td>
+                                <td>
+                                    <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                                    &nbsp;&nbsp;
+                                    BetSafe
+                                </td>
+                                <td>15</td>
+                                <td>1.8</td>
+                            </tr>
                         </tbody>
                     </table>
                     <ul class="pagination">
