@@ -34,6 +34,15 @@
             <span class="badge badge-info">10000USD</span>
             </a>
          </li>
+         <li class="nav-title">ADMIN MENU</li>
+         <li class="nav-item">
+            <a class="nav-link" href="./admin_dashboard.php">
+            <i class="nav-icon icon-layers"></i> Dashboard</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="./comparing.php">
+            <i class="nav-icon icon-layers"></i> Comparing</a>
+         </li>
          <li class="nav-title">MENU</li>
          <li class="nav-item">
             <a class="nav-link" href="./">
