@@ -289,9 +289,9 @@
         </div>
       </div>
       <!-- /.row-->
-
     </div>
   </div>
+
 </main>
 
 <?php include 'templates/footer.php'; ?>
