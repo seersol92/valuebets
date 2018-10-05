@@ -2,9 +2,9 @@
 <main class="main">
     <!-- Breadcrumb-->
     <ol class="breadcrumb">
-    <li class="breadcrumb-item">Home</li>
-    <li class="breadcrumb-item active">My Bets</li>
-    <!-- Breadcrumb Menu-->
+        <li class="breadcrumb-item">Home</li>
+        <li class="breadcrumb-item active">My Bets</li>
+        <!-- Breadcrumb Menu-->
     </ol>
     <div class="container-fluid">
         <div class="animated fadeIn"> 
@@ -271,6 +271,7 @@
         </div>
     </div>
 </main>
+
 <?php include 'templates/footer.php'; ?>
 <script src="assets/js/Chart.min.js"></script>
 <script src="assets/vendors/@coreui/coreui-plugin-chartjs-custom-tooltips/js/custom-tooltips.min.js"></script>
