@@ -205,6 +205,7 @@
     </div>
   </div>
 </main>
+
 <?php include 'templates/footer.php'; ?>
 <script src="assets/js/Chart.min.js"></script>
 <script src="assets/vendors/@coreui/coreui-plugin-chartjs-custom-tooltips/js/custom-tooltips.min.js"></script>
