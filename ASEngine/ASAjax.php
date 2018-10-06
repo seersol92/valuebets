@@ -121,6 +121,7 @@ switch ($action) {
         break;
 }
 
+#for role admin only
 function onlyAdmin()
 {
     if (! (app('login')->isLoggedIn() && app('current_user')->is_admin)) {
