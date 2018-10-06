@@ -128,3 +128,10 @@ function onlyAdmin()
         respond(array('error' => 'Forbidden.'), 403);
     }
 }
+
+function onlyAdminCheck()
+{
+    if (! (app('login')->isLoggedIn() && app('current_user')->is_admin)) {
+        respond(array('error' => 'Forbidden.'), 403);
+    }
+}
