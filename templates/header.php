@@ -43,7 +43,7 @@ $currentUser = app('current_user');
    <span class="navbar-toggler-icon"></span>
    </button>
 
-   <ul class="nav navbar-nav ml-auto">
+   <ul class="nav navbar-nav ml-auto" style="margin-right: 30px;">
         <li class="nav-item dropdown d-md-down-none">
           <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
             <i class="icon-bell"></i>
@@ -184,6 +184,7 @@ $currentUser = app('current_user');
         <li class="nav-item dropdown">
           <a class="nav-link nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
             <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+            <?php echo $currentUser->username; ?>
           </a>
           <div class="dropdown-menu dropdown-menu-right">
             <div class="dropdown-header text-center">
