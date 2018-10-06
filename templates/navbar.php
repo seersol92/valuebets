@@ -25,7 +25,7 @@
                        data-toggle="dropdown"
                        aria-haspopup="true"
                        aria-expanded="false">
-                        <?= trans('welcome'); ?>, <?= e($currentUser->username);  ?>
+                        <?= e($currentUser->username);  ?>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="profile.php">
