@@ -1,7 +1,6 @@
 <?php include 'templates/header.php'; ?>
 <main class="main mt-5">
   <!-- Breadcrumb-->
-
   <div class="container-fluid">
     <div class="animated fadeIn"> 
 
@@ -58,8 +57,7 @@
             </div>
             <!-- /.col-->
         </div>
-      <!-- /.row-->
-
+        
     </div>
   </div>
 </main>
